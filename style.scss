@@ -1,0 +1,160 @@
+
+$primary-font:  'Poppins', sans-serif;
+$font-stack: 'Nosifer', cursive;
+$cute-font: 'Cute Font', cursive;
+$font-stack2: 'Fira Sans', sans-serif;
+
+
+$primary-color: #1abc9c;
+$secondary-color: #e54363;
+
+
+
+
+.dark{
+    background-color: black;
+
+}
+.green-text{
+    color: $primary-color;
+}
+.pink-text{
+    color: $secondary-color;
+}
+
+
+
+
+.above-pic{
+    text-align: center;
+    width: 100%;
+    height: 48vh;
+    margin-bottom: -5px;
+    border-top: 5px solid black; 
+    
+}
+h1{
+    text-align: center;
+    font-family: $font-stack2;
+
+}
+body {
+    background-image: url(images/pic.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: $primary-font;
+
+  }
+
+  .nav-item{
+      padding-right: 2rem;
+      font-size: 1.5rem;
+  }
+  .nav-link:hover{
+      color: $secondary-color;
+      background-color: $primary-color ;
+
+  }
+  .navbar-toggler:hover{
+      border: 3px solid #1abc9c;
+      color: #1abc9c;
+     
+  }
+  .main-logo{
+      height:100px;
+      width: 100px;
+      
+  }
+
+
+  *{
+      margin: 0;
+      padding:0;
+  }
+
+  #section2{
+      background-color: black;
+      width: 100%;
+      padding-bottom: 2rem;
+      padding-top: 2rem;
+  }
+  #section2a{
+      background-color: #fff;
+      margin-bottom: 0;
+    //   padding-top: 3rem;
+      padding-bottom: 7rem;
+  }
+  #section2a h1{
+    padding-top: 7rem;
+  }
+  .smoke{
+    //   height: 40vh;
+    //   width: 200px;
+      position: absolute;
+      padding-top:-200px;
+
+  }
+
+  #section3{
+    background-color: $primary-color;
+    width: 100%;
+    
+    padding-top: 4rem;
+    
+    color: white;
+    text-align: center;
+  }
+.Skills{
+    height: 12rem;
+    width: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 10px;
+}
+
+
+
+  .heading{
+      background-color: black;
+      color: white;
+      
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+  }
+
+  hr{
+      border-top: dotted 7px;
+      margin-left: 40%;
+      margin-right: 40%;
+      margin-top: 2rem;
+   
+      
+
+  }
+
+footer{
+    background-color: black;
+    margin-bottom: 0%;
+}
+.footer-div{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: $primary-color;
+   
+    
+
+}
+.footer-div p {
+    padding-top: 3rem;
+    margin-bottom: 0rem;
+}
+
+i{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+i:hover{
+    color: $secondary-color;
+}
